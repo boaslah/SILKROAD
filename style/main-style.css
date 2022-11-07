@@ -1,0 +1,211 @@
+body{
+    background-image: url(../assets/image3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.active{
+    color:aqua;
+}
+
+.page{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+}
+.main{
+    column-gap: 40px;
+    color: white;
+    /* padding: 3%; */
+    position: fixed;
+    width: 100%;
+    margin: 17% 0% 0% -2%;
+
+}
+#main{
+    margin: auto;
+    display: block;
+    border: none;
+    padding: 0.5%;
+    width: 40%;
+    background-color:rgba(0, 0, 0, 0.644);
+}
+::placeholder{
+    color: white;
+}
+.head{
+    display: grid;
+    grid-template-columns: 5% 80% 15%;
+    column-gap: 40px;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+    padding: 3%;
+    position: fixed;
+    overflow: hidden;
+    width: 5000px;
+    margin: -2.5% 0% 0% -2%;
+}
+
+.row2 a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.register{
+    margin: 0% 0% 0% 19.5%; 
+    position: fixed;
+}
+
+.row2 button{
+    margin: -1% 0% 0% 55%; 
+    padding:1%; 
+    width:13%;
+    border:none; 
+    color:white; 
+    background-color: rgb(39, 135, 214); 
+    border-radius:5%;
+    position: fixed;
+}
+
+.property{
+    margin: 0% 0% 0% 2%; 
+    position: fixed;
+}
+
+.row1{
+    background-color: rgb(44, 44, 44);
+
+}
+.row1 h1, .main h1{
+    text-align: center;
+}
+.row2{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+hr{
+    width: 68%;
+    background-color:white;
+    opacity:0.9;
+    position: fixed;
+}
+
+@media only screen and (max-width: 600px) {
+    .head{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5%;
+    }
+    .row1{
+        margin-right: 95%;
+    }
+    .nav-links{
+        padding-bottom: 1%;
+    }
+    hr{
+        width: 91%;
+    }
+    .row2 button{
+        margin: -5% 90% 0% 60%; 
+        width: 32%;
+    }
+    .register{
+        margin-left: 55%;
+    }
+    .main{
+        margin: 70% 0% 0% -2%;
+    }
+    #main{
+        width: 70%;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .register{
+        margin: 0% 0% 0% 57%; 
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .head{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2%;
+    }
+    .row1{
+        margin-right: 95%;
+    }
+    .nav-links{
+        padding-bottom: 1%;
+    }
+    hr{
+        width: 91%;
+    }
+}
+
+@media only screen and (width: 768px) {
+    .row2 button{
+        margin: -3% 10% 0% 69%; 
+        width: 22%;
+    }
+    .register{
+        margin-left: 74%;
+    }
+}
+@media only screen and (width: 820px) {
+    .row2 button{
+        margin: -3% 10% 0% 69%; 
+        width: 22%;
+    }
+    .register{
+        margin-left: 74%;
+    }
+}
+@media only screen and (width: 840px) {
+    .row2 button{
+        margin: -3% 10% 0% 69%; 
+        width: 22%;
+    }
+    .register{
+        margin-left: 74%;
+    }
+}
+@media only screen and ( width: 987px) {
+    .row2 button{
+        margin: -3% 10% 0% 69%; 
+        width: 22%;
+    }
+    .register{
+        margin-left: 74%;
+    }
+
+}
+@media only screen and (width: 1115px) {
+  
+    .register{
+        margin-left: 55%;
+    }
+} 
+@media only screen and (width: 912px) {
+    .row2 button{
+        margin: -3% 10% 0% 69%; 
+        width: 22%;
+    }
+    .register{
+        margin-left: 74%;
+    }
+} 
+

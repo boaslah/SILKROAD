@@ -1,0 +1,83 @@
+.center-box{
+    margin:0px auto;
+    background-color: rgba(0, 0, 0, 0.568);
+    padding:8%;
+    width:35%;
+    margin-top: -3%;
+}
+
+.center-box-rows{
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    padding: 20%;
+    margin: -40% -30% -35% -30%;
+}
+.center-box-row1, .center-box-row3, .center-box-row4, .center-box-row5{
+    display: flex;
+    margin-top: 2%;
+}
+
+.box-nav1{
+    margin-left: 70%;
+}
+
+.box-nav2{
+    margin-left: 4%;
+}
+
+.box-nav3{
+    margin-left: 3%;
+}
+
+
+.center-box-row2 input{
+    background-color: rgb(44, 44, 44);
+    border: none;
+    display: block;
+    width: 95%;
+    padding: 1.5%;
+    margin-top: 2%;
+}
+.center-box-row4 select, .center-box-row3 select{
+    background-color: rgb(136, 158, 165);
+    border: none;
+    display: block;
+    width: 46%;
+    padding: 1%;
+    color: white;
+}
+.second-row{
+    margin-left: 5.8%;
+}
+#range{
+    background-color: aqua;
+    width: 46%;
+}
+
+.center-box-row5 button{
+    margin: 0% 0% 0% 28%; 
+    padding:0.5%; 
+    width:13%;
+    border:none; 
+    color:white; 
+    background-color: rgb(39, 135, 214); 
+    border-radius:5%;
+    position: fixed;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .center-box{
+        padding: 20% 20% 50% 20%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .center-box{
+        margin-top: 20%;
+        padding: 20% 20% 50% 20%;
+
+    }
+}
